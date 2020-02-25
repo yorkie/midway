@@ -186,7 +186,7 @@ module.exports = app => {
 
 ## Router & Controller
 
-Midway use the `koa-router` as router solution, and provide more syntactic sugar that users can easily declare router and controller with decorators by TypeScript.
+Midway uses the `koa-router` as router solution, and provide more syntactic sugar that users can easily declare router and controller with decorators by TypeScript.
 
 Midway adopts the IoC self-scanning mechanism, it weakens the directory structure convention to a certain extent. Through the mechanism of the decorator, it can be easily decoupled, split according to business logic, and so on.
 
